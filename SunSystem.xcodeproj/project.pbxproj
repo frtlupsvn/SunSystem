@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A00EE6E1C76F33F006B1824 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A00EE6D1C76F33F006B1824 /* AppDelegate.swift */; };
+		5A00EE701C76F33F006B1824 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A00EE6F1C76F33F006B1824 /* art.scnassets */; };
+		5A00EE721C76F33F006B1824 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A00EE711C76F33F006B1824 /* GameViewController.swift */; };
+		5A00EE751C76F33F006B1824 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A00EE731C76F33F006B1824 /* Main.storyboard */; };
+		5A00EE771C76F33F006B1824 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A00EE761C76F33F006B1824 /* Assets.xcassets */; };
+		5A00EE7A1C76F33F006B1824 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A00EE781C76F33F006B1824 /* LaunchScreen.storyboard */; };
+		5A00EE831C76FE86006B1824 /* texture_earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A00EE821C76FE86006B1824 /* texture_earth.jpg */; };
+		5A00EE851C76FFCC006B1824 /* texture_mecury.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A00EE841C76FFCC006B1824 /* texture_mecury.jpg */; };
+		5A00EE8B1C77009C006B1824 /* texture_mars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A00EE861C77009C006B1824 /* texture_mars.jpg */; };
+		5A00EE8D1C77009C006B1824 /* texture_uranus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A00EE881C77009C006B1824 /* texture_uranus.jpg */; };
+		5A00EE8E1C77009C006B1824 /* texture_neptune.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A00EE891C77009C006B1824 /* texture_neptune.jpg */; };
+		5A00EE8F1C77009C006B1824 /* texture_venus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A00EE8A1C77009C006B1824 /* texture_venus.jpg */; };
+		5A00EE911C770100006B1824 /* texture_jupiter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A00EE901C770100006B1824 /* texture_jupiter.jpg */; };
+		5A00EE951C7702F1006B1824 /* texture_saturn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A00EE941C7702F1006B1824 /* texture_saturn.jpg */; };
+		5A00EE991C7705D2006B1824 /* texture_sun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A00EE981C7705D2006B1824 /* texture_sun.jpg */; };
+		5A00EE9B1C7709F5006B1824 /* texture_moon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A00EE9A1C7709F5006B1824 /* texture_moon.jpg */; };
+		5A00EE9E1C7712D6006B1824 /* SceneKit Particle System.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 5A00EE9C1C7712D6006B1824 /* SceneKit Particle System.scnp */; };
+		5A00EE9F1C7712D6006B1824 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A00EE9D1C7712D6006B1824 /* spark.png */; };
+		5A00EEA11C77151D006B1824 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A00EEA01C77151D006B1824 /* background.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A00EE6A1C76F33F006B1824 /* SunSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A00EE6D1C76F33F006B1824 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A00EE6F1C76F33F006B1824 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		5A00EE711C76F33F006B1824 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5A00EE741C76F33F006B1824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A00EE761C76F33F006B1824 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A00EE791C76F33F006B1824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A00EE7B1C76F33F006B1824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A00EE821C76FE86006B1824 /* texture_earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texture_earth.jpg; sourceTree = "<group>"; };
+		5A00EE841C76FFCC006B1824 /* texture_mecury.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texture_mecury.jpg; sourceTree = "<group>"; };
+		5A00EE861C77009C006B1824 /* texture_mars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texture_mars.jpg; sourceTree = "<group>"; };
+		5A00EE881C77009C006B1824 /* texture_uranus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texture_uranus.jpg; sourceTree = "<group>"; };
+		5A00EE891C77009C006B1824 /* texture_neptune.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texture_neptune.jpg; sourceTree = "<group>"; };
+		5A00EE8A1C77009C006B1824 /* texture_venus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texture_venus.jpg; sourceTree = "<group>"; };
+		5A00EE901C770100006B1824 /* texture_jupiter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texture_jupiter.jpg; sourceTree = "<group>"; };
+		5A00EE941C7702F1006B1824 /* texture_saturn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texture_saturn.jpg; sourceTree = "<group>"; };
+		5A00EE981C7705D2006B1824 /* texture_sun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texture_sun.jpg; sourceTree = "<group>"; };
+		5A00EE9A1C7709F5006B1824 /* texture_moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texture_moon.jpg; sourceTree = "<group>"; };
+		5A00EE9C1C7712D6006B1824 /* SceneKit Particle System.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; name = "SceneKit Particle System.scnp"; path = "SunSystem/SceneKit Particle System.scnp"; sourceTree = "<group>"; };
+		5A00EE9D1C7712D6006B1824 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = SunSystem/spark.png; sourceTree = "<group>"; };
+		5A00EEA01C77151D006B1824 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A00EE671C76F33F006B1824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A00EE611C76F33E006B1824 = {
+			isa = PBXGroup;
+			children = (
+				5A00EE9C1C7712D6006B1824 /* SceneKit Particle System.scnp */,
+				5A00EE9D1C7712D6006B1824 /* spark.png */,
+				5A00EE6C1C76F33F006B1824 /* SunSystem */,
+				5A00EE6B1C76F33F006B1824 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A00EE6B1C76F33F006B1824 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A00EE6A1C76F33F006B1824 /* SunSystem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A00EE6C1C76F33F006B1824 /* SunSystem */ = {
+			isa = PBXGroup;
+			children = (
+				5A00EEA01C77151D006B1824 /* background.jpg */,
+				5A00EE811C76FE2A006B1824 /* Textures */,
+				5A00EE6D1C76F33F006B1824 /* AppDelegate.swift */,
+				5A00EE6F1C76F33F006B1824 /* art.scnassets */,
+				5A00EE711C76F33F006B1824 /* GameViewController.swift */,
+				5A00EE731C76F33F006B1824 /* Main.storyboard */,
+				5A00EE761C76F33F006B1824 /* Assets.xcassets */,
+				5A00EE781C76F33F006B1824 /* LaunchScreen.storyboard */,
+				5A00EE7B1C76F33F006B1824 /* Info.plist */,
+			);
+			path = SunSystem;
+			sourceTree = "<group>";
+		};
+		5A00EE811C76FE2A006B1824 /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				5A00EE9A1C7709F5006B1824 /* texture_moon.jpg */,
+				5A00EE981C7705D2006B1824 /* texture_sun.jpg */,
+				5A00EE901C770100006B1824 /* texture_jupiter.jpg */,
+				5A00EE861C77009C006B1824 /* texture_mars.jpg */,
+				5A00EE881C77009C006B1824 /* texture_uranus.jpg */,
+				5A00EE941C7702F1006B1824 /* texture_saturn.jpg */,
+				5A00EE891C77009C006B1824 /* texture_neptune.jpg */,
+				5A00EE8A1C77009C006B1824 /* texture_venus.jpg */,
+				5A00EE841C76FFCC006B1824 /* texture_mecury.jpg */,
+				5A00EE821C76FE86006B1824 /* texture_earth.jpg */,
+			);
+			name = Textures;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A00EE691C76F33F006B1824 /* SunSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A00EE7E1C76F33F006B1824 /* Build configuration list for PBXNativeTarget "SunSystem" */;
+			buildPhases = (
+				5A00EE661C76F33F006B1824 /* Sources */,
+				5A00EE671C76F33F006B1824 /* Frameworks */,
+				5A00EE681C76F33F006B1824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunSystem;
+			productName = SunSystem;
+			productReference = 5A00EE6A1C76F33F006B1824 /* SunSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A00EE621C76F33F006B1824 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Zoom NGUYEN";
+				TargetAttributes = {
+					5A00EE691C76F33F006B1824 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 5A00EE651C76F33F006B1824 /* Build configuration list for PBXProject "SunSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A00EE611C76F33E006B1824;
+			productRefGroup = 5A00EE6B1C76F33F006B1824 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A00EE691C76F33F006B1824 /* SunSystem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A00EE681C76F33F006B1824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A00EE9B1C7709F5006B1824 /* texture_moon.jpg in Resources */,
+				5A00EE701C76F33F006B1824 /* art.scnassets in Resources */,
+				5A00EE8E1C77009C006B1824 /* texture_neptune.jpg in Resources */,
+				5A00EE991C7705D2006B1824 /* texture_sun.jpg in Resources */,
+				5A00EE951C7702F1006B1824 /* texture_saturn.jpg in Resources */,
+				5A00EE8F1C77009C006B1824 /* texture_venus.jpg in Resources */,
+				5A00EE851C76FFCC006B1824 /* texture_mecury.jpg in Resources */,
+				5A00EE8D1C77009C006B1824 /* texture_uranus.jpg in Resources */,
+				5A00EE7A1C76F33F006B1824 /* LaunchScreen.storyboard in Resources */,
+				5A00EE831C76FE86006B1824 /* texture_earth.jpg in Resources */,
+				5A00EE771C76F33F006B1824 /* Assets.xcassets in Resources */,
+				5A00EEA11C77151D006B1824 /* background.jpg in Resources */,
+				5A00EE911C770100006B1824 /* texture_jupiter.jpg in Resources */,
+				5A00EE751C76F33F006B1824 /* Main.storyboard in Resources */,
+				5A00EE9F1C7712D6006B1824 /* spark.png in Resources */,
+				5A00EE9E1C7712D6006B1824 /* SceneKit Particle System.scnp in Resources */,
+				5A00EE8B1C77009C006B1824 /* texture_mars.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A00EE661C76F33F006B1824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A00EE721C76F33F006B1824 /* GameViewController.swift in Sources */,
+				5A00EE6E1C76F33F006B1824 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5A00EE731C76F33F006B1824 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A00EE741C76F33F006B1824 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A00EE781C76F33F006B1824 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A00EE791C76F33F006B1824 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A00EE7C1C76F33F006B1824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A00EE7D1C76F33F006B1824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A00EE7F1C76F33F006B1824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SunSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zoomcancode.com.SunSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A00EE801C76F33F006B1824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SunSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zoomcancode.com.SunSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A00EE651C76F33F006B1824 /* Build configuration list for PBXProject "SunSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A00EE7C1C76F33F006B1824 /* Debug */,
+				5A00EE7D1C76F33F006B1824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A00EE7E1C76F33F006B1824 /* Build configuration list for PBXNativeTarget "SunSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A00EE7F1C76F33F006B1824 /* Debug */,
+				5A00EE801C76F33F006B1824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A00EE621C76F33F006B1824 /* Project object */;
+}
